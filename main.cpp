@@ -1,11 +1,6 @@
-#include <ncurses/curses.h>
-#include <iostream>
-#include "loadingawal.cpp"
-using namespace std;
+#include "loadingawal.h"
 
-int main(){
-
-return 0;
+int main() {
+    loadingawal(); 
+    return 0;
 }
-
-
